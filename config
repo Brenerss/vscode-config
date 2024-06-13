@@ -1,0 +1,90 @@
+{
+    // Workbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.editor.labelFormat": "short",
+    "workbench.startupEditor": "newUntitledFile",
+  
+    // Editor settings
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 2.4,
+    "editor.fontWeight": "bold",
+    "terminal.integrated.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Dank Mono, JetBrains Mono, Fira Code",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [80, 120],
+    "editor.parameterHints.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+  
+    // VSCode stuff
+    "breadcrumbs.enabled": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+  
+    // Emmet
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  
+    // Extensions
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "material-icon-theme.folders.associations": {
+      "domain": "core",
+      "infra": "app",
+      "main": "public",
+      "presentation": "connection",
+      "cryptography": "secure",
+      "entities": "class",
+      "repositories": "mappings",
+      "protocols": "resource",
+      "useCases": "components",
+      "subcomponents": "components",
+      "adapters": "connection",
+      "factories": "container",
+      "globals": "global",
+      "ui": "views"
+    },
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+      ".lintstagedrc.json": "tune"
+    },
+    "polacode.transparentBackground": true,
+    "polacode.shadow": "none",
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false
+    },
+    "gitlens.defaultDateFormat": null,
+    "gitlens.hovers.currentLine.over": "line",
+    "git.confirmSync": false,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.editor.empty.hint": "hidden",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.stickyScroll.enabled": false,
+  }
